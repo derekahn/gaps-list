@@ -1,0 +1,33 @@
+{
+  "name": "gaps-list",
+  "version": "1.0.0",
+  "description": "Simple node.js program(s) that format and filter daily gaps into a tradingview watch list",
+  "keywords": [
+    "stocks",
+    "gaps",
+    "tradingview"
+  ],
+  "homepage": "https://github.com/derekahn/gaps-list#readme",
+  "bugs": {
+    "url": "https://github.com/derekahn/gaps-list/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekahn/gaps-list.git"
+  },
+  "license": "MIT",
+  "author": "Derek Ahn <git.derek@gmail.com>",
+  "type": "commonjs",
+  "main": "filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "volta": {
+    "node": "23.10.0",
+    "npm": "11.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "papaparse": "^5.5.2"
+  }
+}
